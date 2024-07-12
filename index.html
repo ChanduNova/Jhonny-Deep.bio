@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Register & Login</title>
+</head>
+<body>
+    <div class="container" id="signup">
+        <h1 class="form-title">Index & Login</h1>
+        <form method="post" action="login.html">
+          <input type="text" name="fName" id="fName" placeholder="First Name" reqiured>
+          <br></br>
+          <input type="text" name="lName" id="lName" placeholder="Last Name"  required>  
+          <br></br>
+          <input type="email" name="email" id="email" placeholder="Email" required>  
+          <br></br>
+          <input type="password" name="password" id="password" placeholder="Password" required>
+          <br></br>
+          <input type="password" name="password" id="password" placeholder="Confirm Password" required>
+          <br></br> 
+          <input type="number" name="number" id="number" placeholder="Mobile Number" required>
+          <br></br>
+        <select id="states" name="states" id="states" placeholder="Select Your State" required>
+            <option value="Andhra Pradesh">Andhra Pradesh</option>
+            <option value="Telangana">Telangana</option>
+            <option value="Karnataka">Karnataka</option>
+            <option value="Kerala">Kerala</option>
+            <option value="Tamil Nadu">Tamil Nadu</option></select><br></br>          
+        <input type="date" id="date" name="date"><br></br>
+        <label for="gender">Gender:</label>
+        <input type="radio" id="male" name="gender" value="male">
+        <label for="male">Male</label>
+        <input type="radio" id="female" name="gender" value="female">
+        <label for="female">Female</label><br></br>
+        <input type="submit" value="Register"><br></br>
+        </form>  
+    </div>
+</body>
+</html>
